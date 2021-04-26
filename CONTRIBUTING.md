@@ -15,6 +15,12 @@ You generally only need to submit a CLA once, so if you've already submitted one
 (even if it was for a different project), you probably don't need to do it
 again.
 
+## Git Commit Guidelines
+
+This repository is [Commitizen](http://commitizen.github.io/cz-cli/)-friendly, which 
+means that we are following certain rules based on [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) 
+using [AngularJS commit message format](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
+
 ## Code reviews
 
 All submissions, including submissions by project members, require review. We
