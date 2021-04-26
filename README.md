@@ -33,7 +33,7 @@ Can be either `undefined`, empty string or a custom value. If `custom value` is 
       "bar": "GTM test 01"
     },
     {
-      "bar": "GTM test 01"
+      "bar": "GTM test 02"
     }
   ]
 }
@@ -52,7 +52,7 @@ Can be either `undefined`, empty string or a custom value. If `custom value` is 
       "bar":"GTM test 01"
     },
     {
-      "bar":"GTM test 01"
+      "bar":"GTM test 02"
     }
   ]
 }
