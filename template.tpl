@@ -42,7 +42,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "propertyPath",
     "displayName": "Property Path",
     "simpleValueType": true,
-    "help": "The path of the property to get, for example for \u003cstrong\u003e\u003ccode\u003e{foo: [{bar: \"my test value\"}]}\u003c/code\u003e\u003c/strong\u003e, \u003cem\u003efoo.0.bar\u003c/em\u003e (or \u003cem\u003efoo[0].bar\u003c/em\u003e) will return \"my test value\". For more examples, href\u003d\"https://github.com/justia/gtm-nested-properties-object-getter-variable\"\u003evisit our documentation\u003c/a\u003e.",
+    "help": "The path of the property to get, for example for \u003cstrong\u003e\u003ccode\u003e{foo: [{bar: \"my test value\"}]}\u003c/code\u003e\u003c/strong\u003e, \u003cem\u003efoo.0.bar\u003c/em\u003e (or \u003cem\u003efoo[0].bar\u003c/em\u003e) will return \"my test value\". For more examples, \u003ca href\u003d\"https://github.com/justia/gtm-nested-properties-object-getter-variable\"\u003evisit our documentation\u003c/a\u003e.",
     "valueHint": "foo.0.bar"
   },
   {
@@ -282,6 +282,6 @@ setup: |-
 
 ___NOTES___
 
-Created on 4/26/2021, 1:56:38 PM
+Created on 4/26/2021, 6:39:36 PM
 
 
