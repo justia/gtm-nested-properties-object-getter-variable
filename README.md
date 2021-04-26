@@ -28,14 +28,14 @@ Can be either `undefined`, empty string or a custom value. If `custom value` is 
 **Source Object:** 
 ```json
 {
-    foo: [
-        {
-            bar: "GTM test 01"
-        },
-        {
-            bar: "GTM test 01"
-        }
-    ]
+  "foo": [
+    {
+      "bar": "GTM test 01"
+    },
+    {
+      "bar": "GTM test 01"
+    }
+  ]
 }
 ```
 **Property Path:** `foo.0.bar`
@@ -47,14 +47,14 @@ Can be either `undefined`, empty string or a custom value. If `custom value` is 
 **Source Object:** 
 ```json
 {
-    foo: [
-        {
-            bar: "GTM test 01"
-        },
-        {
-            bar: "GTM test 01"
-        }
-    ]
+  "foo": [
+    {
+      "bar":"GTM test 01"
+    },
+    {
+      "bar":"GTM test 01"
+    }
+  ]
 }
 ```
 **Property Path:** `foo[1].bar`
