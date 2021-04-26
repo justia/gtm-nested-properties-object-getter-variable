@@ -1,3 +1,10 @@
+## [2021.0.2](https://github.com/justia/gtm-nested-properties-object-getter-variable/compare/2021.0.1...2021.0.2) (2021-04-26)
+
+
+### Bug Fixes
+
+* remove web permissions from the template ([7948f2f](https://github.com/justia/gtm-nested-properties-object-getter-variable/commit/7948f2fc80ad8eaf2dddb275addf841f1a5b310a))
+
 ## [2021.0.1](https://github.com/justia/gtm-nested-properties-object-getter-variable/compare/2021.0.0...2021.0.1) (2021-04-26)
 
 
