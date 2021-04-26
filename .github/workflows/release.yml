@@ -1,0 +1,29 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+jobs:
+  release:
+    name: Conventional Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0         
+      - uses: actions/setup-node@v2-beta
+      - uses: justia/ga-releaser@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASER_BYPASS_PR_TOKEN: ${{ secrets.RELEASER_BYPASS_PR_TOKEN }}
+        with:
+          use-version-branch: true
+          require-commits: false
+          base-branch: 'master'
+          head-branch: 'master'
+          automerge-pr: true
+          git-user-name: 'action@github.com'
+          git-user-email: 'Github Action'
+          versioning-specification: 'calver'
+          calver-format: 'YYYY.MINOR.MICRO'
+          release-name: 'v${version}'
