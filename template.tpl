@@ -15,15 +15,12 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Nested Properties Object Getter",
   "description": "This template works similar to \u003ca href\u003d\"https://lodash.com/docs/4.17.15#get\"\u003elodash _.get function\u003c/a\u003e, making it possible to obtain values from an object given a string (such as \u003cem\u003efoo[0].bar\u003c/em\u003e).",
-  "brand": {
-    "id": "Justia",
-    "displayName": "Justia",
-    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAABoVBMVEUGNXr////7/P0KOHwJN3wINnv+/v4AJ3EHNnv9/v4IN3sJOHz+/v8AKHEALHT8/P39/f4HNnr8/f4AKnMAL3YAKHIAK3MEMnhKbJ6ZrMn8/f0AK3T+//+YrMgBLnYCMXhIap13kLaOo8MJN3sEMXgFM3kGNHoIN3wjTYoAKXIAJnAALXWcr8r29/r6+/0AJW8AKnIBK3MBL3YAMHcEL3YDMHYCMXcEMHcEMXcDMngDM3gENHkGM3kFNHkFNXoHNXoGNnoLNnsNOHwOOHwNOX0MO34RPoASQIEYQoIYQoMYQ4QkTYpDZptCZpoYRIQbRYQcR4YfR4YgSogkToopUY0qUo0zWZI1W5M4XZU6XpU+Y5g/ZJlCY5hDZ5tFaJxGaJxGaZxNbqBRcqJUc6NefalnhK5tibFyjLNzjbSFnL6PpMOVqseXqseXq8iZrMiarcmbrsmdr8qjtc6mt9Cywda2xNi5xtq7x9rBzN7Ez9/H0uHP2ObQ2eba4evc4+zh5u/j6fDm6/Ln7PLs7/Xt8fXw8vfw8/f3+fv4+vz5+vz6+/yJ4WSoAAABrElEQVR4Xu2VVa/cMBQG+9lBhmW+zMzMZWZmZmZm+NV1lL0rVa20Th4rj5THGZ1Yts4WPgQCn26SzF/JqbbKsFW7M4kvp48OVO4VCoXK/Tu7alr8QHv2HBQwyiCH03KCQGkvfhHGUPB9d7LAnsYE/0FABERABERABM4mCGj+H4vFAsOKETA6uhpL0Oy9BK8e6OEMdFcPrueMeoCqrSBRYPDQuMbjm+kdHwYyC7QeKD1HEQwd77fN+Tzz59ZeAY9XU9203ZC29p1BRICXXH+gdU0/AXHx5rRjO/2jw0feQUcIQZtNm/u+nH0IAgRQnl09dTzf9hUKQqCjJSs1D8h9N0Mf8PTIU/RN/+3GfPMjMJwbcBFRJAo89kUQXLdNnnv3AD/xD1y8pos+xxEsTT7CkP6XH+DHSUfiusSdE7ehR4M3UAjcy70m5zNYHrnyGYrrKuW6XSQ6Pp5nPie+lNl/6xsswAsYFsoYvLszxXxuzBn1wLWnnzyEWF9etPZkOpgfA9mcUp3txy7kL+ZbTuyrqmNm7H2gUWO2PxXi1GTK9ARohiSZkmRo3EZyBILfSzxK15953BYAAAAASUVORK5CYII="
-  },  
   "containerContexts": [
     "WEB"
   ],
-  "categories": ["UTILITY"]
+  "categories": [
+    "UTILITY"
+  ]
 }
 
 
@@ -139,30 +136,6 @@ function getUndefinedValue(option, customValue) {
   
   return customValue;
 }
-
-
-___WEB_PERMISSIONS___
-
-[
-  {
-    "instance": {
-      "key": {
-        "publicId": "logging",
-        "versionId": "1"
-      },
-      "param": [
-        {
-          "key": "environments",
-          "value": {
-            "type": 1,
-            "string": "debug"
-          }
-        }
-      ]
-    },
-    "isRequired": true
-  }
-]
 
 
 ___TESTS___
