@@ -15,5 +15,5 @@
 homepage: "https://company.justia.com/"
 documentation: "https://github.com/justia/gtm-nested-properties-object-getter-variable"
 versions:
-  - sha: 87541385ac5feb9960874fd6932bb1cd0519c1f1
+  - sha: 44e64ef46f985ab0cce8e25d5e58b0db542d0672
     changeNotes: Initial Version
