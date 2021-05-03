@@ -2,7 +2,7 @@
 
 ## Summary
 
-that works similar to [lodash _.get function](https://lodash.com/docs/4.17.15#get), making it possible to obtain values from an object given a string (such as *foo[0].bar*).
+This repository contains a [Google Tag Manager Variable template](https://developers.google.com/tag-manager/templates) that makes it possible to obtain nested properties from an object using dot or bracket notation (for example, `foo[0].bar`). It works similar to [lodash _.get function](https://lodash.com/docs/4.17.15#get).
 
 ## Usage
 - Open a **Google Tag Manager** web container and click into the **Templates** from the left sidebar menu.
