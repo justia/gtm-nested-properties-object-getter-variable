@@ -1,5 +1,9 @@
 # Google Tag Manager 'Nested Properties Object Getter' Variable Template
 
+[![Template Status](https://img.shields.io/badge/Community%20Template%20Gallery%20Status-published-green)](https://tagmanager.google.com/gallery/#/owners/justia/templates/gtm-nested-properties-object-getter-variable) ![Repo Size](https://img.shields.io/github/repo-size/justia/gtm-nested-properties-object-getter-variable) ![License](https://img.shields.io/github/license/justia/gtm-nested-properties-object-getter-variable)
+
+---
+
 ## Summary
 
 This repository contains a [Google Tag Manager Variable template](https://developers.google.com/tag-manager/templates) that makes it possible to obtain nested properties from an object using dot or bracket notation (for example, `foo[0].bar`). It works similar to [lodash _.get function](https://lodash.com/docs/4.17.15#get).
