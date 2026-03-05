@@ -1,0 +1,14 @@
+name: PR Review Labels Sync
+
+on:
+  pull_request:
+    types: [review_requested, opened, edited, reopened, ready_for_review]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  labels:
+    uses: justia/ga-workflows/.github/workflows/pr-labels-shared.yml@master
+    with:
+      mode: ${{ github.event_name == 'pull_request' && 'review_requested' || 'reviewed' }}
+    secrets: inherit
